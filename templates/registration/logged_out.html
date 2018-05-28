@@ -1,0 +1,9 @@
+{% extends 'base.html'%} 
+{%block title%} Logged Out{% endblock %}
+{%block content%}
+
+<h2>Loggedout</h2>
+<p>You are sucessfully logged out of Mamabear</p>
+<p><a href = "{% url 'login' %}"><button type="button" class="btn btn-secondary">Log In </button></a> again.</p>
+{% endblock %}
+
